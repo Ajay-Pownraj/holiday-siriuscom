@@ -1,0 +1,57 @@
+.quote {
+	height: auto;
+	text-align: center;
+	padding-top: 30px;
+	color: #0a305c;
+	margin-bottom: 30px;
+}
+.quote-title {
+	font-size: 32px;
+	font-family: "Roboto Bold";
+	color: #0a305c;
+	padding: 40px;
+}
+.quote-input-content {
+	position: relative;
+	max-width: 500px;
+	margin: 1rem auto;
+	width: 100%;
+}
+.quote-label {
+	display: flex;
+	margin-bottom: 0.5rem;
+	color: #494f55;
+}
+.quote-input {
+	width: 100%;
+	font-size: 1rem;
+	height: 44px;
+	padding: 0 0.5rem;
+	border-radius: 3px;
+	border: 1px solid #494f55;
+}
+.error {
+	text-align: left;
+	color: #ec3d11;
+	padding: 10px 0px 10px 0px;
+}
+.success-msg {
+	padding: 10px 0px 10px 0px;
+	margin-bottom: 15px;
+	border: 1px solid rgb(172, 236, 172);
+	background-color: rgb(172, 236, 172);
+	color: #313841;
+}
+.no-success {
+	display: none;
+}
+@media (max-width: 768px) {
+	.quote {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.quote-title {
+		font-size: 18px;
+		padding: 0;
+	}
+}

@@ -1,0 +1,43 @@
+.destination {
+	height: auto;
+	margin: 20px auto 30px 100px;
+	overflow: hidden;
+}
+.destination-title {
+	color: #133357;
+	font-size: 30px;
+	font-family: "Roboto Bold";
+}
+.dest-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.scroll-bar {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-width: none;
+}
+.scroll-bar::-webkit-scrollbar {
+	display: none;
+}
+.dest-img-content {
+	padding-right: 30px;
+}
+.city-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+}
+.city-name {
+	padding-top: 20px;
+	font-size: 18px;
+	color: #313841;
+}
+
+@media (max-width: 800px) {
+	.destination {
+		margin-left: 30px;
+	}
+}

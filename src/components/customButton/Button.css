@@ -1,0 +1,10 @@
+.custom-buttom {
+	padding: 11px 25px;
+	width: 150px;
+	border-radius: 4px;
+	background-image: linear-gradient(to right, #020202, #0a305c);
+	color: #fff;
+	border-color: #0a305c;
+	cursor: pointer;
+	font-family: "Roboto Bold";
+}

@@ -1,0 +1,23 @@
+.nav-content > ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 5%;
+	font-size: 20px;
+}
+.nav-content > ul > li {
+	padding: 0px 10px 0 10px;
+}
+.nav-content > ul > li > a {
+	text-decoration: none;
+	color: black;
+}
+
+@media (max-width: 768px) {
+	.nav-content > ul {
+		margin: auto;
+		justify-content: center;
+		font-size: 16px;
+		padding: 10px;
+	}
+}

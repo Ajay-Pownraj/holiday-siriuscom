@@ -1,0 +1,27 @@
+.weather {
+	height: auto;
+	margin: 50px 100px 50px 100px;
+}
+.content-title {
+	background-color: #0a305c;
+	color: #fff;
+	min-height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding-left: 30px;
+	font-size: 24px;
+	font-family: "Roboto Bold";
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+	.weather {
+		margin: 0px 30px 0px 30px;
+	}
+	.content-title {
+		justify-content: center;
+		padding-left: 0px;
+		font-size: 18px;
+	}
+}

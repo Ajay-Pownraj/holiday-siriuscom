@@ -1,0 +1,43 @@
+.card-row {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+	text-align: center;
+	line-height: 50px;
+}
+.card {
+	width: 25%;
+	padding-bottom: 20px;
+}
+.card:nth-child(1) {
+	background-color: #0d7e88;
+	color: white;
+}
+.card:nth-child(2) {
+	background-color: #d09378;
+	color: white;
+}
+.card:nth-child(3) {
+	background-color: #405b5d;
+	color: white;
+}
+.card:nth-child(4) {
+	background-color: #74a748;
+	color: white;
+}
+.city {
+	font-size: 20px;
+}
+.celsius {
+	font-size: 54px;
+	font-family: "Roboto Bold";
+}
+
+@media (max-width: 800px) {
+	.card {
+		width: 50%;
+	}
+	.celsius {
+		font-size: 44px;
+	}
+}

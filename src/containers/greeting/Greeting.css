@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.flex-item-left {
+	padding: 10px;
+	flex: 50%;
+	text-align: right;
+	margin-right: 50px;
+}
+
+.flex-item-right {
+	padding: 10px;
+	flex: 50%;
+	margin-right: 50px;
+}
+
+.welcomeImg {
+	width: 75%;
+}
+
+.greeting-text-content {
+	padding-left: 45px;
+}
+.greeting-title {
+	font-family: "Roboto Bold";
+	font-size: 50px;
+}
+.greeting-subtitle {
+	padding-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.greeting-button {
+	margin-top: 25px;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
+	}
+	.welcomeImg {
+		width: 100%;
+	}
+	.flex-item-left {
+		margin-right: 0px;
+	}
+	.flex-item-right {
+		margin-right: 0px;
+		text-align: center;
+		font-size: 22px;
+	}
+	.greeting-title {
+		font-size: 30px;
+	}
+}
